@@ -12,10 +12,10 @@ import praw
 import datetime as dt
 
 def fetchTweets(name, companydf, tickerSymbol):
-    consumer_key = "9L3hNv8VYRnwITJIbTZXM0TQd"
-    consumer_secret = 'MMCv15gDOw7sgR5BOI86imOx8Kdvd6j7OHRyowHzjQmfJDKBca'
-    access_token = '335826064-jG7JAhvn99aqKyMHjfv3xjotMk1N3CHsyBEQp95u'
-    access_token_secret = 'UZYRv5KKd1LYFUj9E5BGZ9DiRQodWW5BGu7GJnwPScSYl'
+    consumer_key = ""
+    consumer_secret = ''
+    access_token = ''
+    access_token_secret = ''
     
     auth = tw.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
